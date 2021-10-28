@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>anwrawk - [Linux Terminal]</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <h1 class="afterclose"> You Closed Terminal ! --> <button class="open"> reopen ? </button> </h1>
+    <div class="window">
+        <div class="controls">
+            <button class="buttons close" id="close"></button>
+            <button class="buttons maximize" href="#"></button>
+            <button class="buttons minimize" href="#"></button>
+            <div class="title">Gnome Terminal</div>
+        </div>
+        <div class="bash">
+            <span id="span">[anwrawk@linux-pc ~]:$</span>
+            <span class="type-it">rawk update</span>
+            <br>
+            <div class="result">
+                <span id="span2"> Error : This command has to be run under the root user.</span>
+            </div>
+        </div>
+        <!-- partial -->
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+        <script src='https://cdn.jsdelivr.net/jquery.typeit/4.2.3/typeit.min.js'></script>
+        <script src="./js/script.js"></script>
+</body>
+
+</html>
